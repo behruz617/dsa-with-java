@@ -3,8 +3,7 @@ package arrays;
 import java.util.HashSet;
 
 public class ContainsDuplicate {
-    //Tapsirig-Verilen massivde eger tekrarlanan reqemler varsa true,yoxdursa false ver
-    //iki cur Yol  mumkundur 1 ic ice for ile digeri asagidaki Hashset Ile,TimeComplexity O(n)olmasi ucun en ideal yol Hashset-dir
+
     public static void main(String[] args) {
 
         int[] nums1 = {1, 2, 3, 4, 5};
