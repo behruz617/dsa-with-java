@@ -1,7 +1,17 @@
-# My DSA Journey 🚀
-Practicing one problem every day using Java.
+# Data Structures and Algorithms with Java 🚀
 
-## Goals
-- Build algorithmic thinking
-- Prepare for interviews
-- Stay consistent and track progress
+This repository contains my daily practice solutions for Data Structures and Algorithms (DSA) in Java.  
+I solve at least one problem each day and document my learning progress weekly.
+
+## 🎯 Goals
+- Strengthen algorithmic and problem-solving skills  
+- Improve code readability and time complexity analysis  
+- Build a strong foundation for technical interviews  
+
+## 📚 Topics Covered
+- Arrays & Hashing  
+- Strings  
+- Stack / Queue  
+- Trees & Graphs  
+- Sorting & Searching  
+- Recursion & Dynamic Programming  
