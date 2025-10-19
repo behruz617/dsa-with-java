@@ -34,3 +34,34 @@ Simvolların yerləri fərqli ola bilər.
 **Summary:**  
 Bu iki tapşırıq **Arrays & Hashing** bölməsinə aiddir və  
 HashSet və HashMap istifadəsini öyrənmək üçün əsas nümunələrdir.
+
+# 🧩 Two Sum
+
+Bu tapşırıqda bizə bir massiv (`nums = [1, 2, 3, 4]`) və bir `target = 7` verilir.
+
+**Sual:**  
+Massivdə hansı iki ədədin cəmi `target`-ə bərabərdir?
+
+---
+
+## 🧮 Brute Force Yanaşması
+
+İlk olaraq **iki `for` döngəsi** istifadə edilir.  
+Hər `i` üçün bütün `j` dəyərləri yoxlanılır:
+
+- **Time Complexity:** `O(n²)`  
+  Çünki hər element digər bütün elementlərlə müqayisə olunur.
+- **Space Complexity:** `O(1)`  
+  Əlavə struktur istifadə edilmir.
+
+---
+
+## ⚡ HashMap Yanaşması
+
+`HashMap` istifadə etdikdə proses daha sürətli olur.  
+Hər element üçün bir dəfə `containsKey`, `get`, və `put` əməliyyatları icra edilir.
+
+- **Time Complexity:** `O(n)` (orta halda)  
+  Çünki hər əməliyyat (`put` və `get`) orta halda `O(1)` vaxt aparır.
+- **Space Complexity:** `O(n)`  
+  Çünki ən pis halda bütün elementlər `map`-də saxlanıla bilər.
